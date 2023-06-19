@@ -30,6 +30,7 @@ $(function () {
     $(this).addClass("future")
   } 
   });
+  // Normally a loop will be done like this for Vanilla JS, but I used the above JQuery instead!
   // for (var i = 0; i < timeBlocks.length; i++) {
   //   console.log(timeBlocks[i]);
   // }
