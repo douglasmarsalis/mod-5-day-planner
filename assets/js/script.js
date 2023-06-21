@@ -9,7 +9,22 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
+  
+  var notesObj = {};
+  
+  
+  $(".saveBtn").on("click", function(event){
+    var noteText = ($(this).siblings()[1].value);
+    console.log(noteText);
 
+    var noteHour = ($(this).parent().attr("id"));
+    console.log(noteHour);
+
+    notesObj[noteHour] = noteText
+    localStorage.setItem("storedNotes", JSON.stringify(notesObj));
+
+    //localStorage.setItem(noteHour, noteText);
+  });
 
   /*localStorage is a property that allows JavaScript sites and apps to save key-value pairs
   in a web browser with no expiration date. This means the data stored persists even after
@@ -89,7 +104,24 @@ SPLIT will cut off the dash in the array number.
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
+  var allNotes = JSON.parse(localStorage.getItem("storedNotes"));
 
+  timeBlocks.each(function(){
+    var thisHour = $(this).attr("id");
+    console.log(thisHour);
+
+    
+    var thisNote = allNotes[thisHour];
+    console.log(thisNote);
+
+    if (!thisNote) {
+      return;
+    }
+
+    $(this).children("textarea")[0].value = thisNote;
+    console.log($(this).children("textarea"));
+  });  
+  
 
   //Displays the current date in the header of the page The month, day and year code was found on Day.js --> https://day.js.org/docs/en/display/format.
   var today = dayjs().format("MMMM DD, YYYY");

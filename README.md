@@ -2,9 +2,9 @@
 
 ## Description
 
-First item - As a web developer, I want to be able to schedule important tasks throughout my day using a day planner.  This day planner is able to show current, future and past color slots for me to easily see and schedule my tasks.
+First item - As a web developer, I want to be able to schedule important tasks throughout my day using a day planner. This day planner is able to show current, future and past color slots for me to easily see and schedule my tasks.
 Second item - I will make sure the code follows industry standards and is sourced correctly.
-Third item - By building this webpage, it also helped me to learn inforamtion on HTML, CSS, JavaScript, Git, GitHub, README markdown information, and Deployment.  Also, the usage of JQUERY third party APIs.
+Third item - By building this webpage, it also helped me to learn inforamtion on HTML, CSS, JavaScript, Git, GitHub, README markdown information, and Deployment. Also, the usage of JQUERY third party APIs.
 
 ## Task
 
@@ -30,23 +30,24 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ## Sources
-- First item Various websites for how to do certain tasks: 
-            W3 Schools - https://www.w3schools.com/ 
-            Stackoverflow - https://stackoverflow.com/
-            Mozilla mdn - https://developer.mozilla.org/en-US/ 
-            Geeks for Geeks - https://geeksforgeeks.org
-            Dayjs -  https://day.js.org/docs/en/display/format
-            jQuery API - https://api.jquery.com/jQuery.css 
-            Local Storage - https://blog.logrocket.com/localstorage-javascript-complete-guide/
+
+- First item Various websites for how to do certain tasks:
+  W3 Schools - https://www.w3schools.com/
+  Stackoverflow - https://stackoverflow.com/
+  Mozilla mdn - https://developer.mozilla.org/en-US/
+  Geeks for Geeks - https://geeksforgeeks.org
+  Dayjs - https://day.js.org/docs/en/display/format
+  jQuery API - https://api.jquery.com/jQuery.css
+  Local Storage - https://blog.logrocket.com/localstorage-javascript-complete-guide/
 - Second item A special thank you to my tutor Ben.
 
 ## Link to Deployed Site
 
-https://douglasmarsalis.github.io/mod-5-day-planner/ 
+https://douglasmarsalis.github.io/mod-5-day-planner/
 
 ## Link to Github Repository
 
-https://github.com/douglasmarsalis/mod-5-day-planner/tree/main 
+https://github.com/douglasmarsalis/mod-5-day-planner/tree/main
 
 ## Screenshot of Webpage
 
@@ -63,3 +64,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
