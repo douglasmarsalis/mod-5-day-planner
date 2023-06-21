@@ -2,9 +2,8 @@
 
 ## Description
 
-- First item As a web developer, I want to be able to schedule important tasks throughout my day using a day planner.  This day planner is able to show current, future and past color slots for me to easily see and schedule my tasks.
-- Second item I will make sure the code follows industry standards and is sourced correctly.
--Third item By building this webpage, it also helped me to learn inforamtion on HTML, CSS, JavaScript, Git, GitHub, README markdown information, and Deployment.  Also, the usage of JQUERY third party APIs.
+First item As a web developer, I want to be able to schedule important tasks throughout my day using a day planner.  This day planner is able to show current, future and past color slots for me to easily see and schedule my tasks.
+Second item I will make sure the code follows industry standards and is sourced correctly.Third item By building this webpage, it also helped me to learn inforamtion on HTML, CSS, JavaScript, Git, GitHub, README markdown information, and Deployment.  Also, the usage of JQUERY third party APIs.
 
 ## Task
 
