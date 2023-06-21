@@ -43,11 +43,11 @@ THEN the saved events persist
 
 ## Link to Deployed Site
 
-https://douglasmarsalis.github.io/mod-5-day-planner/
+https://douglasmarsalis.github.io/mod-5-day-planner/ 
 
 ## Link to Github Repository
 
-https://github.com/douglasmarsalis/mod-5-day-planner/tree/main
+https://github.com/douglasmarsalis/mod-5-day-planner 
 
 ## Screenshot of Webpage
 
