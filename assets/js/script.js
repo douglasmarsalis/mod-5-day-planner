@@ -9,6 +9,45 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
+
+  /* This is Vanilla JS for LocalStorage
+  var inputInformation = document.getElementById("hour-x");
+  var buttonEl = document.getElementById("button");
+
+  buttonEl.addEventListener("click", addAnswerToLocalStorage);
+
+  function addAnswerToLocalStorage() {
+    var value = inputInformation.value;
+    localStorage.setItem("hour-x", value);
+  }
+
+EXAMPLE 2 VANILLA JS
+let btnDsn = document.querySelector("#btn-design");
+localStorage.setItem('Name','CLICKED');
+let name = localStorage.getItem('Name');
+  
+(function (){
+    btnDsn.onclick = function() {
+        btnDsn.textContent = name;
+    };
+})();
+
+EXAMPLE 3 VANILLA JS
+let btnDsn = document.querySelector("#btn-design");
+localStorage.setItem('Name','CLICKED');
+let name = localStorage.getItem('Name');
+  
+(function (){
+    btnDsn.onclick = function() {
+        btnDsn.textContent = name;
+    };
+})();
+localStorage.clear();
+*/
+
+
+
+
   //
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
@@ -36,6 +75,8 @@ $(function () {
   // }
   
 
+
+
   //
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
@@ -43,7 +84,7 @@ $(function () {
   //
 
 
-  // TODO: Add code to display the current date in the header of the page.
+  //Displays the current date in the header of the page The month, day and year code was found on Day.js --> https://day.js.org/docs/en/display/format.
   var today = dayjs().format("MMMM DD, YYYY");
   console.log(today);
 
