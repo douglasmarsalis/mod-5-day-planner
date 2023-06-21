@@ -35,6 +35,9 @@ THEN the saved events persist
             Stackoverflow - https://stackoverflow.com/
             Mozilla mdn - https://developer.mozilla.org/en-US/ 
             Geeks for Geeks - https://geeksforgeeks.org
+            Dayjs -  https://day.js.org/docs/en/display/format
+            jQuery API - https://api.jquery.com/jQuery.css 
+            Local Storage - https://blog.logrocket.com/localstorage-javascript-complete-guide/
 - Second item A special thank you to my tutor Ben.
 
 ## Link to Deployed Site
