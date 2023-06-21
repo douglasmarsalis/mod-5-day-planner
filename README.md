@@ -51,7 +51,11 @@ https://github.com/douglasmarsalis/mod-5-day-planner/tree/main
 
 ## Screenshot of Webpage
 
-![Screen shot of my webpage]()
+![Screen shot of my webpage](assets/images/Screenshot 2023-06-21 at 4.04.27 PM.png)
+
+![Screen shot of my webpage](assets/images/Screenshot 2023-06-21 at 4.04.45 PM.png)
+
+![Screen shot of my webpage](assets/images/Screenshot 2023-06-21 at 4.05.33 PM.png)
 
 ## License
 
